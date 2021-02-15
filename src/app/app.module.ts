@@ -1,19 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AuthGuard } from './guards/auth.guard';
-import { AdminGuard} from './guards/admin.guard';
+
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { ChartsModule } from 'ng2-charts/ng2-charts';   
 import { ClientsComponent } from './components/components/clients/clients.component';
-import { HomeComponent } from './components/home/home.component';
-import { HomeComponent2 } from './components/components/home2/home2.component';
+import { AuthGuard } from './guards/auth.guard';
+import { AdminGuard} from './guards/admin.guard';
 import { DataService } from './services/data.service';
 import { ValidateService } from './services/validate.service';
 import { ClientService } from './services/client.service';
 import { WeatherService } from './services/weather.service';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes, ActivatedRoute, Params,PreloadAllModules } from '@angular/router';
+import { HomeComponent } from './components/home/home.component';
+import { HomeComponent2 } from './components/components/home2/home2.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavbarComponent } from './components/navbar/navbar.component';

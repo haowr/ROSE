@@ -13,13 +13,14 @@
   },
   "private": true,
   "engines": {
-    "node": "~6.10.3",
-    "npm": "~3.10.5"
+    "node": "*",
+    "npm": "*"
   },
   "dependencies": {
     " @angular-devkit/core": "*",
+    "@angular-devkit/core": "^11.2.0",
     "@angular/animations": "^5.0.0",
-    "@angular/cli": "1.6.0",
+    "@angular/cli": "^1.6.0",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
     "@angular/compiler-cli": "^5.0.0",
@@ -62,6 +63,6 @@
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
-    "typescript": "~2.4.2"
+    "typescript": "^2.9.2"
   }
 }
