@@ -72,8 +72,8 @@ if(document.documentElement.clientWidth < 768){
 
   ngOnInit() {
     this.name = 'ROSE';
-        
-    this.authservice.checkIfLoggedIn();
+        console.log( this.authservice.checkIfLoggedIn())    
+        this.authservice.checkIfLoggedIn();
 
   }
 
