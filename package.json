@@ -17,8 +17,7 @@
     "npm": "*"
   },
   "dependencies": {
-    " @angular-devkit/core": "*",
-    "@angular-devkit/core": "^11.2.0",
+    "@angular-devkit/core": "*",
     "@angular/animations": "^5.0.0",
     "@angular/cli": "^1.6.0",
     "@angular/common": "^5.0.0",
